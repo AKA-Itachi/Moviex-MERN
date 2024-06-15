@@ -1,11 +1,11 @@
 {
+    "parser": "@typescript-eslint/parser",
     "extends": [
-        "eslint:recommended"
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
     ],
-    "parserOptions": {
-        "ecmaVersion": 2021
-    },
     "rules": {
-        // Your custom rules here
+        "prettier/prettier": "error"
     }
 }
